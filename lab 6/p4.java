@@ -15,7 +15,7 @@ System.out.println("Child Thread : " + i);
      t1.join();
        } catch (InterruptedException e) {
  System.out.println(e);
- }
- System.out.println("Main Thread Resumes execution ");
+       }
+ System.out.println("Main Thread Resumes execution  ");
     }
 }
